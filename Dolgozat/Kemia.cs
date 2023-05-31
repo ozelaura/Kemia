@@ -10,13 +10,15 @@ namespace Dolgozat
     {
         int ev;
         string nev;
+        string vegyjel;
         string rendszam;
         string felfedezo;
 
-        public Kemia(int ev, string nev, string rendszam, string felfedezo)
+        public Kemia(int ev, string nev, string vegyjel, string rendszam, string felfedezo)
         {
             this.ev = ev;
             this.nev = nev;
+            this.vegyjel = vegyjel;
             this.rendszam = rendszam;
             this.felfedezo = felfedezo;
         }
